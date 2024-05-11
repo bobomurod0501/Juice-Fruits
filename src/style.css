@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    width: 300px;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    padding:20px 10px;
+    position: relative;
+    transition: 0.2s linear all;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.card:hover{
+        background-color: hsl(240, 81%, 79%);
+        color: aliceblue;
+}
+img{
+    position: absolute;
+    top: -20%;
+    width: 250px;
+}
+.fruit_name{
+    margin: 20px;
+}
+.definition{
+    margin-bottom: 10px;
+}
+button{
+    width:70%;
+    margin-top: 10px;
+    padding:10px 0;
+    background-color: rgb(238, 204, 51);
+    border: none;
+    border-radius: 5px;
+    color: rgb(244, 247, 248);
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    transition: 0.2s linear all;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-4px);
+    background-color: #c2a41f;
+
+}
+button:active{
+    transform: translateY(2px);
+    border:2px solid #9b8008
+}
